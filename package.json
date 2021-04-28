@@ -2,9 +2,10 @@
   "name": "mediaReviewers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/kodehaus/mediaReviewers/issues"
   },
-  "homepage": "https://github.com/kodehaus/mediaReviewers#readme"
+  "homepage": "https://github.com/kodehaus/mediaReviewers#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodeman": "^1.1.2",
+    "pug": "^3.0.2"
+  }
 }
